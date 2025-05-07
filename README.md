@@ -43,8 +43,8 @@ There is no project code yet — both team members are currently working on sepa
 
 ## Team
 
-- **[Your Name]** – Lead Developer & Environment Setup
-- **[Teammate Name]** – Prototype Contributor
+- **[Ngaa G]** – Lead Developer & Environment Setup
+- **[Maiko.V]** – Prototype Contributor
 
 ## Status
 
