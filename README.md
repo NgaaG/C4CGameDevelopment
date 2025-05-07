@@ -1,6 +1,6 @@
 # WindmillRepair
 
-A cooperative environmental puzzle game developed in Godot Engine 4.x.
+A 2 player cooperative environmental puzzle game developed in Godot Engine 4.x. by 2 developers: Maiko & Ngaa
 
 ## Game Summary
 
