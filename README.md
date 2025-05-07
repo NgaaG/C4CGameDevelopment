@@ -50,3 +50,11 @@ There is no project code yet — both team members are currently working on sepa
 
 Prototype phase. Awaiting version consolidation.
 
+| ✅  | Item                                        |
+| -- | ------------------------------------------- |
+| ✔️ | Clean repo created                          |
+| ✔️ | README with full game summary               |
+| ✔️ | .gitignore tailored for Godot               |
+| ✔️ | No code yet — waiting on prototype decision |
+| ✔️ | Teammate invited for collaboration          |
+
