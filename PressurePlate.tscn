@@ -1,0 +1,24 @@
+[gd_scene load_steps=4 format=3 uid="uid://qrki217g3emj"]
+
+[ext_resource type="Script" uid="uid://dl6ko1fihma1k" path="res://pressure_plate.gd" id="1_g1nay"]
+[ext_resource type="Texture2D" uid="uid://b8asiuilddgc1" path="res://d6ccbkg-6462e3bd-d352-45b1-b8a5-0a2274484d9e.png" id="2_mxqol"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_6mrm8"]
+size = Vector2(92, 22)
+
+[node name="PressurePlate" type="Area2D"]
+script = ExtResource("1_g1nay")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(2, -1)
+shape = SubResource("RectangleShape2D_6mrm8")
+
+[node name="D6Ccbkg-6462e3Bd-d352-45b1-b8a5-0a2274484d9e" type="Sprite2D" parent="."]
+position = Vector2(-0.249998, 0.249998)
+scale = Vector2(0.322266, 0.0761719)
+texture = ExtResource("2_mxqol")
+
+[node name="CloseTimer" type="Timer" parent="."]
+wait_time = 10.0
+
+[connection signal="timeout" from="CloseTimer" to="." method="_on_close_timer_timeout"]
